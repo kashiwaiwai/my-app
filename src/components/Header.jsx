@@ -27,7 +27,7 @@ const Header = () => {
   return(
     <>
       <StyledHeader>
-        <StyledImg src="logo.png"/>
+        <StyledImg src="logo.png" alt="協和中校章"/>
         <StyledTitle>
           協和中2021年卒同窓会
         </StyledTitle>

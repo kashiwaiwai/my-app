@@ -32,7 +32,7 @@ const MapFrame = styled.iframe`
   margin: 0 auto;
 `;
 
-const Title = styled.h1`
+const Title = styled.h2`
   margin: 0 0 0 8px;
   font-size: 24px;
   width: 80px;

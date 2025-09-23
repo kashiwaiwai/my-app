@@ -37,8 +37,9 @@ const DetailDd = styled.dd`
   margin-left: 80px;
 `;
 
-const Titel = styled.h1`
+const Titel = styled.h2`
   font-size: 24px;
+  margin: 0;
   margin-left: 8px;
   width: 80px;
   /* margin: 0 0 0 4px;

@@ -26,7 +26,7 @@ const DetailDiv = styled.div`
   }
 `;
 
-const Title = styled.h1`
+const Title = styled.h2`
   margin: 0;
   margin-left: 8px;
   font-size: 24px;
