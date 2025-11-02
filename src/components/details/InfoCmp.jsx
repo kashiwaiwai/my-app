@@ -59,15 +59,33 @@ const Link = styled.a`
   display: block;
 `;
 
-const InfoCmp = ({info}) => {
+const InfoCmp = ({ info }) => {
 
-  return(
+  let linkContent;
+
+  switch (info.type) {
+    case 0:
+      linkContent = (
+        <>
+          <Deadline>{info.deadline}</Deadline>
+          <Link href={info.link}>{info.linkText}</Link>
+        </>
+      )
+      
+    case 1:
+
+      break;
+
+    default:
+      break;
+  }
+
+  return (
     <Div>
       <Title>{info.title}</Title>
       <DetailDiv>
         <Text>{info.text}</Text>
-        <Deadline>{info.deadline}</Deadline>
-        <Link href={info.link}>{info.linkText}</Link>
+        {linkContent}
       </DetailDiv>
     </Div>
   );

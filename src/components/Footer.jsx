@@ -27,7 +27,7 @@ const Footer = () => {
     <Link href="https://www.instagram.com/2025_kyowa?igsh=ODhtMm5naGs4dHJ5&utm_source=qr">
       <Instagram className="fa-brands fa-instagram"></Instagram>
     </Link>
-    <Small>2025/09/21 nishikawa</Small>
+    <Small>2025/11/2 nishikawa</Small>
   </StyledFooter>
   )
 }
